@@ -13,8 +13,7 @@ vel = [0, 1] # pixels per update (1/60 seconds)
 # define event handlers
 def draw(canvas):
     # Update ball position
-    ball_pos[0] += vel[0]
-    ball_pos[1] += vel[1]
+    
 
     # Draw ball
     canvas.draw_circle(ball_pos, BALL_RADIUS, 2, "Red", "White")
