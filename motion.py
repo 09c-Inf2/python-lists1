@@ -21,8 +21,7 @@ def draw(canvas):
     ball_pos = [0, 0]
 
     # calculate ball position
-    ball_pos[0] = init_pos[0] + time * vel[0]
-    ball_pos[1] = init_pos[1] + time * vel[1]
+    
     
     # draw ball
     canvas.draw_circle(ball_pos, BALL_RADIUS, 2, "Red", "White")
